@@ -5,8 +5,6 @@ function Login() {
     let { data: res, error } = await supabase.auth.signInWithPassword(data);
     if (error) {
       throw error.message;
-    } else {
-      localStorage.setItem("user", JSON.stringify(res.session));
     }
   };
 
@@ -21,20 +19,20 @@ function Login() {
           <div className={styles.line} />
         </div>
         <div className={styles.username}>
-          <label className="Username">USERNAME</label>
-          <input type="text" placeholder="Username" className={styles.input} />
+          <label className={styles.usernameh}>USERNAME</label>
+          <input type="text"  className={styles.input} />
         </div>
         <div className={styles.username}>
-          <label className="Username">PASSWORD</label>
-          <input type="text" placeholder="Password" className={styles.input} />
+          <label className={styles.usernameh}>PASSWORD</label>
+          <input type="text" className={styles.input} />
         </div>
         <div className={styles.button}>
           <button className={styles.loginButton} OnClick={handleLogin}>
             Login
           </button>
-          <h3 className={styles.or}>sign up instead</h3>
+          <a className={styles.or}>sign up instead</a>
         </div>
-        <div className={styles.forgotText}></div>
+        <div className={styles.forgotText}>oops i forgot my password</div>
       </div>
     </>
   );

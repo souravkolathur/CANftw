@@ -1,74 +1,97 @@
-.outercontainer{
-    background-color: rgba(2, 111, 77, 1);
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(2, 111, 77, 1);
+}
+.heroText {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin: 3rem;
+  color: #54af92;
+  letter-spacing: 1.5px;
+  text-shadow: 1.349px 1.799px 0px #00402b;
 }
 
-
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-.heroText{
-    font-size:3.5rem;
-    font-weight: 700;
-    margin:3rem;
-    color:rgb(74, 209, 166);
+.heroImg {
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
 }
 
-.heroImg{
-    width: 90%;
-    height: 90%;
-    object-fit: cover;
+.subText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.subText{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.loginText {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin: 2rem 0.5rem;
+  color: rgb(255, 255, 255);
+  letter-spacing: 4px;
+  text-shadow: 1.349px 1.799px 0px #00402b;
 }
 
-.loginText{
-    font-size: 3.5rem;
-    font-weight: 700;
-    margin:2rem .5rem;
+.line {
+  height: 5px;
+  background-color: #8d1212;
 }
 
-.line{
-    height: 5px;
-    background-color: #8d1212;
+.username {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: first baseline;
+  margin: 0.5rem;
+  width: 65%;
 }
 
-.username{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:first baseline;
-    margin: .5rem;
-    width: 65%;
+.usernameh {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 0.5rem;
+  color: rgb(213, 213, 213);
 }
 
-.user{
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin: .5rem;
+.user {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin: 0.5rem;
 }
 
-.button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+.button {
+  margin: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.loginButton{
-    padding: 10px 40px;
-    margin: 0px 10px;
+.loginButton {
+  padding: 10px 50px;
+  margin: 0px 20px;
+  border-radius: 7px;
+  background: #00aa74;
 }
 
-.input{
-    width: 100%;
-    height: 45px;
-    border-radius: 10px;
+.input {
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+}
+
+.or {
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+
+.forgotText {
+  margin-top: 15px;
+  color: rgb(74, 164, 136);
+  text-align: center;
 }
