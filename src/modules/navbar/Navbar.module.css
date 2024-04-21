@@ -8,7 +8,7 @@
   color: #07a674;
   border-radius: 9px;
   position: fixed;
-  bottom: 100px;
+  bottom: 10%;
   li {
     cursor: pointer;
     list-style: none;

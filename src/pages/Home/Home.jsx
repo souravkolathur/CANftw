@@ -2,6 +2,7 @@ import styles from "./Home.module.css";
 import lessonImg from "../../assets/lessonImg.png";
 import React, { useEffect } from "react";
 import Navbar from "../../modules/navbar/Navbar";
+import Roadmap from "../Roadmap/Roadmap";
 import { useState } from "react";
 
 function Home() {
@@ -33,7 +34,7 @@ function Home() {
           </div>
         </div>
       )}
-      {pageSelect == "map" && <div>Road Map</div>}
+      {pageSelect == "map" && <Roadmap />}
       {pageSelect == "streak" && <div>Streak</div>}
       {pageSelect == "profile" && <div>Profile</div>}
       <Navbar setPageSelect={setPageSelect} />
