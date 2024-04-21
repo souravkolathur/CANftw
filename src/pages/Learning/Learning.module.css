@@ -104,9 +104,9 @@
     display: inline-block;
     transition: all 0.3s ease;
     cursor: pointer;
-    position: absolute;
-    bottom: 30px;
-    left: 30%;
+    position: fixed; /* Changed from absolute to fixed */
+    bottom: 30px; /* Adjust as needed */
+    left: 30%; /* Adjust as needed */
     z-index: 9999;
 }
 
