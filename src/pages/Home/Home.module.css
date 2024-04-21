@@ -21,10 +21,12 @@
 .welcome {
   font-size: 35px;
   font-weight: 700;
+  text-align: center;
 }
 
 .baseSpan {
   color: #54af92;
+  
 }
 
 .graph {
