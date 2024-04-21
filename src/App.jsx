@@ -24,6 +24,7 @@ function App() {
           <Route path="*" element={<NotFound />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/welcome" element={<Welcome />} />
+          <Route path="/*" element={<NotFound />} />
         </Routes>
       </Router>
       <Toaster position="bottom-center" />

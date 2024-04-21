@@ -1,0 +1,17 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 3.5rem;
+  color: #00a671;
+  img {
+    margin-bottom: 16px;
+  }
+  span {
+    font-size: 2.5rem;
+    color: #54af92;
+  }
+}
