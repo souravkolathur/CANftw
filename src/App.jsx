@@ -6,6 +6,7 @@ import {
   Route,
   createBrowserRouter,
   RouterProvider,
+  Navigate,
 } from "react-router-dom";
 import Login from "./pages/Login/Login";
 import Game from "./pages/Game/Game";
@@ -32,7 +33,7 @@ function App() {
     },
     {
       path: "/",
-      element: <Home />,
+      element: <Navigate to="/login" />,
     },
 
     {
@@ -58,7 +59,7 @@ function App() {
   return (
     <>
       <RouterProvider router={router} />
-      <Router>
+      {/* <Router>
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="/game" element={<Game />} />
@@ -69,7 +70,7 @@ function App() {
           <Route path="/signup" element={<SignUp />} />
           <Route path="/*" element={<NotFound />} />
         </Routes>
-      </Router> 
+      </Router>  */}
       <Toaster position="bottom-center" />
     </>
   );
