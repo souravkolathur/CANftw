@@ -68,7 +68,7 @@ function SignUp() {
           />
         </div>
         <div className={styles.username}>
-          <label className="Username">PASSWORD</label>
+          <label className={styles.usernameh}>PASSWORD</label>
           <input
             type="password"
             className={styles.input}
@@ -76,7 +76,7 @@ function SignUp() {
           />
         </div>
         <div className={styles.username}>
-          <label className="password">CONFIRM PASSWORD</label>
+          <label className={styles.usernameh}>CONFIRM PASSWORD</label>
           <input
             type="password"
             className={styles.input}

@@ -6,8 +6,19 @@
   height: 100vh;
   background-color: rgba(2, 111, 77, 1);
 }
+
+.hero {
+  margin-top: -127px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+  img {
+    width: 275px;
+  }
+}
 .heroText {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 700;
   margin: 3rem;
   color: #54af92;
@@ -37,8 +48,9 @@
 }
 
 .line {
-  height: 5px;
-  background-color: #8d1212;
+  width: 140px;
+  height: 1.565px;
+  background-color: #ffffff;
 }
 
 .username {
@@ -48,6 +60,13 @@
   align-items: first baseline;
   margin: 0.5rem;
   width: 65%;
+  input {
+    padding-left: 0.5rem;
+    font-size: 1.5rem;
+  }
+  input:focus {
+    filter: drop-shadow(1.174px 1.565px 0px #000);
+  }
 }
 
 .usernameh {
@@ -72,10 +91,21 @@
 }
 
 .loginButton {
+  color: white;
   padding: 10px 50px;
   margin: 0px 20px;
   border-radius: 7px;
   background: #00aa74;
+  border: none;
+  cursor: pointer;
+}
+
+.loginButton:hover {
+  background-color: #54af92;
+}
+
+.loginButton:active {
+  background-color: #54af92ad;
 }
 
 .input {
@@ -94,4 +124,9 @@
   margin-top: 15px;
   color: rgb(74, 164, 136);
   text-align: center;
+  cursor: pointer;
+}
+
+.forgotText:hover {
+  text-decoration: underline;
 }

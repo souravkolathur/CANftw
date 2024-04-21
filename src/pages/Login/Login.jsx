@@ -51,8 +51,10 @@ function Login() {
   return (
     <>
       <div className={styles.container}>
+        <div className={styles.hero}>
         <div className={styles.heroText}>FINANCIAL QUEST</div>
         <img src={heroImg} />
+        </div>
         <div className={styles.subText}>
           <div className={styles.line} />
           <div className={styles.loginText}>LOGIN</div>

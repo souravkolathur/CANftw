@@ -76,6 +76,8 @@
   margin: 0px 20px;
   border-radius: 7px;
   background: #00aa74;
+  color: white;
+  font-size: medium;
 }
 
 .input {
@@ -94,4 +96,12 @@
   margin-top: 15px;
   color: rgb(74, 164, 136);
   text-align: center;
+}
+
+.usernameh{
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 0.5rem;
+  color: rgb(213, 213, 213);
 }
