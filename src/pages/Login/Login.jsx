@@ -44,7 +44,7 @@ function Login() {
     (async () => {
       const res = await supabase.auth.getUser();
       if (res.data.user?.aud == "authenticated") {
-        navigate("/dashboard");
+        navigate("/home");
       }
     })();
   }, []);

@@ -1,66 +1,74 @@
-.heroText{
-    color: #C8C8C8;
-    text-shadow: 1.663px 2.217px 0px #000;
-    font-family: "Jersey 10";
-    font-size: 66.378px;
-    font-weight: 700;
+.outerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heroText {
+  color: #c8c8c8;
+  text-shadow: 1.663px 2.217px 0px #000;
+  font-family: "Jersey 10";
+  font-size: 66.378px;
+  font-weight: 700;
 }
 
-.welcome{
-    font-size: 35px;
-    font-weight: 700;
+.welcome {
+  font-size: 35px;
+  font-weight: 700;
 }
 
-.baseSpan{
-    color: #54AF92;
+.baseSpan {
+  color: #54af92;
 }
 
-.graph{
-    background-image: url('../../assets/graph-homepage.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 30px 0px;
+.graph {
+  background-image: url("../../assets/graph-homepage.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 0px;
 }
 
-.percent{
-    font-size: 50px;
-    color: #026F4D;
-    margin-top: 150px;
+.percent {
+  font-size: 50px;
+  color: #026f4d;
 }
-.complete{
-    font-size: 40px;
-}
-
-.basetext{
-    font-size: 18px;
-    font-weight: 700;
-    letter-spacing: 1px;
+.complete {
+  font-size: 40px;
 }
 
-.statusBar{
-    margin-top: 50px;
-    height: 12px;
-    background: linear-gradient(to right, #026F4D 25%, #54AF92 25%);
-    border-radius: 10px;
-    width: 75%;
+.basetext {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
-.nextLesson{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 8px;
-    align-items: center;
+.statusBar {
+  margin-top: 50px;
+  height: 12px;
+  background: linear-gradient(to right, #026f4d 25%, #54af92 25%);
+  border-radius: 10px;
+  width: 75%;
 }
 
-.less{
-    font-size: 40px;
-    font-weight: 700;
-    color: #026F4D;
+.nextLesson {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 8px;
+  align-items: center;
 }
 
+.less {
+  font-size: 40px;
+  font-weight: 700;
+  color: #026f4d;
+}

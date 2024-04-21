@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { Outlet, useNavigate } from "react-router-dom";
-import { supabase } from "../utils/supabase";
+import { supabase } from "../utils/supa";
 import toast from "react-hot-toast";
 
 export const PrivateRoute = () => {
@@ -25,3 +25,5 @@ export const PrivateRoute = () => {
 
   return <Outlet />;
 };
+
+export default PrivateRoute;
