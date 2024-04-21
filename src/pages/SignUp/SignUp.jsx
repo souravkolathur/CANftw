@@ -60,7 +60,7 @@ function SignUp() {
           <div className={styles.line} />
         </div>
         <div className={styles.username}>
-          <label className="Username">Email</label>
+          <label className={styles.usernameh}>Email</label>
           <input
             type="text"
             className={styles.input}
