@@ -31,7 +31,8 @@ function Learning() {
       <p className={styles.lessonPara} >
       Investment plays a crucial role in individual financial planning and the broader economy. For individuals, investing can provide income, increase wealth, and help achieve financial goals like retirement or buying a home. At the macroeconomic level, investment drives economic growth by providing capital for businesses to expand and innovate.
       </p>
-
+      <div className={styles.attribution}>Content derived from the Wikipedia article "Investment" by Wikipedia contributors, used under CC BY-SA. [https://en.wikipedia.org/wiki/Investment]
+      </div>
       <div className={styles.botton}>
         <img src={minigamebutton} className={styles.playgame} />
       </div>
