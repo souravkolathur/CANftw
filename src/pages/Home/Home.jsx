@@ -48,7 +48,7 @@ function Home() {
             CHAPTER 9
           </h3>
           <div className={styles.nextLesson}>
-            <div className={styles.less}> NEXT LESSON &rarr;</div>
+            <div className={styles.less} onClick={()=>navigate("/learning")}> NEXT LESSON &rarr;</div>
             <img src={lessonImg} className={styles.lessonImg} alt="" />
           </div>
           <button
