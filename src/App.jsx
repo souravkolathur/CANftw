@@ -58,13 +58,9 @@ function App() {
   return (
     <>
       <RouterProvider router={router} />
-      {/* <Router>
+      <Router>
         <Routes>
           <Route path="/login" element={<Login />} />
-<<<<<<< Updated upstream
-          <Route path="/roadmap" element={<Roadmap />} />
-=======
->>>>>>> Stashed changes
           <Route path="/game" element={<Game />} />
           <Route path="/" element={<Login />} />
           <Route path="/home" element={<Home />} />
@@ -73,7 +69,7 @@ function App() {
           <Route path="/signup" element={<SignUp />} />
           <Route path="/*" element={<NotFound />} />
         </Routes>
-      </Router> */}
+      </Router> 
       <Toaster position="bottom-center" />
     </>
   );

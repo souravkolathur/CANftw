@@ -6,6 +6,7 @@ import Roadmap from "../Roadmap/Roadmap";
 import { useState } from "react";
 
 function Home() {
+  const [pageSelect, setPageSelect] = useState("home");
   return (
     <div className={styles.outerContainer}>
       {pageSelect == "home" && (
