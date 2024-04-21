@@ -1,15 +1,17 @@
 import React from "react";
 import styles from "./Navbar.module.css"
 
+
 function Navbar(){
-    return
-    <div>
-        <ol className={styles.Nav}>
-            <li>Home</li>
-            <li>Streak</li>
-            <li>Map</li>
-            <li>Profile</li>
-        </ol>
-    </div>;
+    return (
+
+            <div className={styles.Nav}>
+                <li>Home</li>
+                <li>Streak</li>
+                <li>Mappp</li>
+                <li>Profile</li>
+            </div>
+    );
 }
-Export default Navbar;
+
+export default Navbar;
