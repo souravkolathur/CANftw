@@ -2,7 +2,7 @@ import "./App.css";
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "./pages/Login/Login";
-import Achievements from "./pages/Achievements/Achievements";
+import Roadmap from "./pages/Roadmap/Roadmap";  // Add this line
 import Game from "./pages/Game/Game";
 import Home from "./pages/Home/Home";
 import Learning from "./pages/Learning/Learning";
@@ -17,7 +17,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/login" element={<Login />} />
-          <Route path="/achievements" element={<Achievements />} />
+          <Route path="/roadmap" element={<Roadmap />} />
           <Route path="/game" element={<Game />} />
           <Route path="/" element={<Login />} />
           <Route path="/home" element={<Home />} />

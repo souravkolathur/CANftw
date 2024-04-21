@@ -1,0 +1,92 @@
+/* Roadmap.css */
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    height: 100vh;
+    padding: 0 20px;
+}
+
+
+.roadmap {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px 70px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: first baseline;
+}
+
+.topic {
+    margin: 15px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.topic::marker {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.title {
+    cursor: pointer;
+    font-weight: bold;
+    position: relative;
+    padding-right: 20px;
+    font-size: xx-large;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: rgba(84, 175, 146, 1);
+}
+
+.title::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid rgb(244, 240, 240); /* adjust color as needed */
+    transform: translateY(-50%);
+    transition: transform 0.3s ease;
+}
+
+.title[aria-expanded='true']::after {
+    transform: translateY(-50%) rotate(180deg);
+}
+
+.subtopics {
+    margin: 20px 0px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:rgba(84, 175, 146, 1); /* adjust as needed */
+    font-size: x-large;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color :rgba(2, 111, 77, 1); /* adjust as needed */
+}
+
+.subtopics li{
+    cursor: pointer;
+    margin: 10px 0px;
+}
+
+.subtopics li:hover {
+    color: white;
+}
+
+.heroText{
+    color: #C8C8C8;
+    text-shadow: 1.663px 2.217px 0px #000;
+    font-size: 65px;
+    font-weight: 700;
+}
