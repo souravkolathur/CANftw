@@ -1,0 +1,116 @@
+.top{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.statusBar{
+    height: 12px;
+    background: linear-gradient(to right, #026F4D 25%, #54AF92 25%);
+    border-radius: 10px;
+    width: 65%;
+}
+
+.backarrow{
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    margin: 0px 10px;
+    transition: all 0.3s ease;
+}
+
+.backarrow:hover{
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+.backarrow:active {
+    transform: scale(0.95);
+}
+
+.head{
+    margin: 25px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: first baseline;
+}
+
+.heading{
+    font-size: 19px;
+}
+
+.subhead{
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.headTitle{
+    color: #54AF92;
+}
+
+.subhead{
+    color: #026F4D;
+}
+
+.lessonvideo{
+    width: 80%;
+    background-image: url('../../assets/ytimg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 13px;
+    margin: 10px auto;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ytbutton{
+    position: absolute;
+}
+
+.ytbutton:active {
+    transform: scale(0.9);
+}
+
+.hover{
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    transition: transform 0.1s ease;
+}
+
+.lessonvideo:hover .original {
+    opacity: 0;
+}
+
+.lessonvideo:hover .hover {
+    opacity: 1;
+}
+
+.lessonPara{
+    font-size: 21px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: rgb(158, 165, 162);
+    margin: 20px 50px;
+    text-align: justify;
+}
+
+.playgame{
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    display: inline-block;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: absolute;
+    bottom: 30px;
+    left: 30%;
+    z-index: 9999;
+}
+
+.playgame:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+}
