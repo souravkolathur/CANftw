@@ -4,7 +4,16 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   font-family: "Jersey 10", sans-serif;
   padding: 0px;
+}
+
+button {
+  font-family: "Jersey 10", sans-serif;
+}
+
+input {
+  font-family: "Jersey 10", sans-serif;
 }
