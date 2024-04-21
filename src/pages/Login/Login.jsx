@@ -52,8 +52,8 @@ function Login() {
     <>
       <div className={styles.container}>
         <div className={styles.hero}>
-        <div className={styles.heroText}>FINANCIAL QUEST</div>
-        <img src={heroImg} />
+          <div className={styles.heroText}>FINANCIAL QUEST</div>
+          <img src={heroImg} />
         </div>
         <div className={styles.subText}>
           <div className={styles.line} />
@@ -80,7 +80,9 @@ function Login() {
           <button className={styles.loginButton} onClick={handleSubmit}>
             Login
           </button>
-          <a className={styles.or}>sign up instead</a>
+          <a className={styles.or} href="/signup">
+            sign up instead
+          </a>
         </div>
         <div className={styles.forgotText}>oops i forgot my password</div>
       </div>
