@@ -61,7 +61,7 @@ function Login() {
           <div className={styles.line} />
         </div>
         <div className={styles.username}>
-          <label className={styles.usernameh}>USERNAME</label>
+          <label className={styles.usernameh}>EMAIL</label>
           <input
             type="text"
             className={styles.input}
