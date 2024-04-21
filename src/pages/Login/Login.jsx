@@ -20,14 +20,14 @@ function Login() {
         </div>
         <div className={styles.username}>
           <label className={styles.usernameh}>USERNAME</label>
-          <input type="text"  className={styles.input} />
+          <input type="text" className={styles.input} />
         </div>
         <div className={styles.username}>
           <label className={styles.usernameh}>PASSWORD</label>
           <input type="text" className={styles.input} />
         </div>
         <div className={styles.button}>
-          <button className={styles.loginButton} OnClick={handleLogin}>
+          <button className={styles.loginButton} onClick={handleLogin}>
             Login
           </button>
           <a className={styles.or}>sign up instead</a>

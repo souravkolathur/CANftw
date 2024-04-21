@@ -10,8 +10,9 @@
   font-size: 3.5rem;
   font-weight: 700;
   margin: 3rem;
-  color: rgb(74, 209, 166);
+  color: #54af92;
   letter-spacing: 1.5px;
+  text-shadow: 1.349px 1.799px 0px #00402b;
 }
 
 .heroImg {
@@ -32,6 +33,7 @@
   margin: 2rem 0.5rem;
   color: rgb(255, 255, 255);
   letter-spacing: 4px;
+  text-shadow: 1.349px 1.799px 0px #00402b;
 }
 
 .line {
@@ -63,6 +65,7 @@
 }
 
 .button {
+  margin: 10px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -72,7 +75,7 @@
   padding: 10px 50px;
   margin: 0px 20px;
   border-radius: 7px;
-  background-color: rgb(89, 205, 168);
+  background: #00aa74;
 }
 
 .input {
@@ -88,6 +91,7 @@
 }
 
 .forgotText {
+  margin-top: 15px;
   color: rgb(74, 164, 136);
   text-align: center;
 }
