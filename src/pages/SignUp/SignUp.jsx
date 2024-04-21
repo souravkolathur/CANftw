@@ -89,7 +89,9 @@ function SignUp() {
           <button className={styles.loginButton} onClick={handleSubmit}>
             Sign Up
           </button>
-          <h3 className={styles.or}>Login instead</h3>
+          <a className={styles.or + " " + styles.orLogin} href="/login">
+            Login instead
+          </a>
         </div>
         <div className={styles.forgotText}></div>
       </div>

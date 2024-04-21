@@ -1,6 +1,7 @@
 import styles from './Home.module.css';
 import lessonImg from '../../assets/lessonImg.png';
 import React from 'react'
+import Navbar from '../../modules/navbar/Navbar';
 
 function Home() {
   return (
@@ -18,12 +19,7 @@ function Home() {
         <div className={styles.less}> NEXT LESSON &rarr;</div>
         <img src={lessonImg} className={styles.lessonImg} alt="" />
       </div>
-      <div className={styles.navBar}>
-        <div className={styles.navItem}>HOME</div>
-        <div className={styles.navItem}>STREAK</div>
-        <div className={styles.navItem}>MAP</div>
-        <div className={styles.navItem}>PROFILE</div>
-      </div>
+      <Navbar />
     </div>
   )
 }
